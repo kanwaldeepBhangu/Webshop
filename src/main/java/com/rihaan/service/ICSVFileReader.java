@@ -11,10 +11,6 @@ import java.util.List;
 
 public interface ICSVFileReader extends DefaultProcessor {
 
-    public default List<Product> createCache() {
-        List<Product> products = new ArrayList<Product>();
-        return products;
-    }
 
     public default  List<Product>  readCsvFile(String csvFile)  {
         String line = "";
