@@ -7,6 +7,9 @@
     <groupId>com.rihaan</groupId>
     <artifactId>webshop</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <csv.filepath>/c/Users/kanwa/office/repos/nav/Webshop/src/main/resources</csv.filepath>
+    </properties>
     <build>
         <plugins>
             <plugin>
